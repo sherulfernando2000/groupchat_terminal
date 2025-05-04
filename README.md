@@ -24,6 +24,6 @@ A simple **terminal-based group chat** application built with **Java Socket Prog
 └── ClientHandler.java
 ```
 ## how to run
--1 .Start the Server class.
--2 .Open multiple terminals and run the Client class in each.
--3. Enjoy group chatting in real-time!
+- 1 .Start the Server class.
+- 2 .Open multiple terminals and run the Client class in each.
+- 3. Enjoy group chatting in real-time!
