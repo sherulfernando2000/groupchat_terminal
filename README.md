@@ -1,29 +1,29 @@
-📄 Project Title: Terminal-Based Multi-Client Chat Application (Java Socket Programming)
-  🧩 Description:
-    This is a terminal-based chat application built using Java Socket Programming, designed to support multiple clients connecting simultaneously through separate terminal instances.   
-     Each client can send and receive real-time messages using a simple group chat model. The server handles each client on a dedicated thread, enabling smooth concurrent communication.
+# 🖥️ Terminal-Based Multi-Client Chat Application
 
-🚀 Key Features:
-  💬 Real-time group chat via terminal
-  
-  🧵 Multi-threaded server handling multiple clients
-  
-  🔌 Built with Java Sockets (TCP)
-  
-  🖥️ Multiple clients run as separate terminal instances
-  
-  📡 Continuous listening for incoming messages in background threads
-  
-  ⚙️ Simple and lightweight, no external libraries required
+A simple **terminal-based group chat** application built with **Java Socket Programming**. This app supports **multiple clients**, each running in a separate terminal instance, connected to a single server. Ideal for learning how sockets and multithreading work in Java.
 
-🛠️ Technologies:
-  Java
-  Java Sockets
-  Multi-threading
-  Terminal-based I/O
+---
 
-🧪 How to Run:
-  Start the Server class.
-  Open multiple terminals and run the Client class in each.
-  Enjoy group chatting in real-time!
+## 🚀 Features
 
+- 📡 **Real-time group chat**
+- 🧵 **Multi-threaded server** to handle multiple clients simultaneously
+- 🔌 Built using **Java Sockets** (TCP)
+- 🖥️ Works entirely in the **terminal**
+- 🔁 **Background thread** for continuous message listening
+- 📦 Lightweight – no external libraries needed
+
+---
+
+## 📂 Project Structure
+
+```bash
+.
+├── Server.java
+├── Client.java
+└── ClientHandler.java
+```
+## how to run
+1 .Start the Server class.
+2 .Open multiple terminals and run the Client class in each.
+3. Enjoy group chatting in real-time!
